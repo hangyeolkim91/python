@@ -1,4 +1,4 @@
-__author__ = 'user'
+#FILE : mymath.py
 mypi = 3.14
 
 def add(a,b):
