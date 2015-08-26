@@ -40,6 +40,5 @@ class window:
 
 
 b = window()
-
 b.set_width(650)
 
