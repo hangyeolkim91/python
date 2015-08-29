@@ -171,7 +171,7 @@ class dao:
         self.cursor.execute(query)
         return self.cursor.fetchall()
 
-    #데이터 삭제 부분
+    #데이터 삭제 부분 책이름이 중복되지 않으므로 삭제가 가능하다.
     def excute_delete(self,d):
         self.delete_s = d.split(',')
         self.delete_s = self.delete_s[0]
